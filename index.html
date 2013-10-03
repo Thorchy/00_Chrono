@@ -4,16 +4,17 @@
 		<meta charset="UTF-8">
 		<title>Mobile Chrono</title>
 		<script src="chrono.js"></script>
-		<link rel="stylesheet" href="chrono-landscape.css">
+		<link rel="stylesheet" href="chrono-portrait.css">
 	</head>
 	<body>
 		<div id="wrapper">
-			<div id="controls">
-				<p><input type="button" value="Start" onClick="start();" /></p>
-				<p><input type="button" value="Continue" onClick="cont();" /></p>
-				<p><input type="button" value="Pause" onClick="pause();" /></p>
-			</div>
 			<div id="response"><p>0</p></div>
+			<div id="controls">
+				<input type="button" value="Start" onClick="start();" />
+				<input type="button" value="Continue" onClick="cont();" />
+				<input type="button" value="Pause" onClick="pause();" />
+			</div>
+			<div class="clear"></div>
 		</div>
 	</body>
 </html>
