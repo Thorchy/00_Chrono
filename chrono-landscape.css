@@ -1,30 +1,45 @@
-#wrapper {
-	width: 100%;
-	height: 100%;
-	font-size: 1.2em;
-	background-image: url("Images/chrono_landscape.jpg");
-}
+@media screen and (orientation: landscape) {
 
-input {
-	width: 175px;
-	height: 65px;
-	margin-top: 20px;
-}
+	body {
+		width: 100%;
+		height: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
 
-#controls {
-	margin-top: 30px;
-	float: left;
-	width: 50%;
-}
+	#wrapper {
+		width: 100%;
+		height: 100%;
+		font-size: 1.2em;
+		background-image: url("Images/chrono_landscape.jpg");
+	}
 
-#response {
-	font-size: 5em;
-	float: right;
-	width: 50%;
-}
+	input {
+		width: 175px;
+		height: 65px;
+		margin-top: 20px;
+	}
 
-#response p {
-	width: 50px;
-	height: 50px;
-	margin: 75px 45px;
+	#controls {
+		margin-top: 30px;
+		float: left;
+		width: 200px;
+	}
+
+	#response {
+		font-size: 5em;
+		float: right;
+		width: 50%;
+	}
+
+	#response p {
+		width: 50px;
+		height: 50px;
+		margin: 75px 45px;
+	}
+	
+	.clear {
+		clear: both;
+		float: none;
+	}
 }
