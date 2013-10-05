@@ -1,45 +1,42 @@
-@media screen and (orientation: landscape) {
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
 
-	body {
-		width: 100%;
-		height: 100%;
-		padding: 0px;
-		margin: 0px;
-	}
+#wrapper {
+	width: 100%;
+	height: 100%;
+	font-size: 1.2em;
+	background-image: url("Images/chrono_landscape.jpg");
+}
 
-	#wrapper {
-		width: 100%;
-		height: 100%;
-		font-size: 1.2em;
-		background-image: url("Images/chrono_landscape.jpg");
-	}
+input {
+	width: 175px;
+	height: 32%;
+	margin-top: 1%;
+}
 
-	input {
-		width: 175px;
-		height: 65px;
-		margin-top: 20px;
-	}
+#controls {
+	float: left;
+	width: 200px;
+	height: 100%;
+}
 
-	#controls {
-		margin-top: 30px;
-		float: left;
-		width: 200px;
-	}
+#response {
+	font-size: 5em;
+	float: right;
+	width: 50%;
+}
 
-	#response {
-		font-size: 5em;
-		float: right;
-		width: 50%;
-	}
+#response p {
+	width: 50px;
+	height: 50px;
+	margin: 75px 45px;
+}
 
-	#response p {
-		width: 50px;
-		height: 50px;
-		margin: 75px 45px;
-	}
-	
-	.clear {
-		clear: both;
-		float: none;
-	}
+.clear {
+	clear: both;
+	float: none;
 }
